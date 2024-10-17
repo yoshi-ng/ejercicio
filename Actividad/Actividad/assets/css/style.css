@@ -1,0 +1,179 @@
+/*Recuerda que los estilos tienen etiquetas, class (estas llevan un punto antes del nombre*/
+body{
+    background-color: #ededed; 
+    font-family: Lato;
+    text-align: center; 
+    text-transform: uppercase;}
+h1{
+    font-family: montserrat;
+    color: #4D545a;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: montserrat;
+    color: #4D545a;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: montserrat;
+    color: #4D545a;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-family: Inter;
+    color: #4D545a;
+    font-weight: bold;
+    margin-bottom: 14px; 
+}
+
+p{
+   font-family: Montserrat;
+    Color: #434a62;
+    text-align: center; 
+    font-size: 14px;
+}   
+
+.bold{
+    font-weight: bold;
+}
+
+.hero-img{
+    background: url(/assets/img/.hero-img) no-repeat center;
+    height: 580px;
+    background-size: cover;
+}
+
+.wrapper {
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.hero-img h1{
+    margin: 180px 0px 40px 0px;
+}
+
+.orden-right{
+    align-items: right;
+    margin: 0px;
+    width: 1440px;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background: #434a62;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: #4D545a 80%;
+}
+
+#feature{
+    display: inline-block;
+    padding: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.icon1{
+    background: url(assets/img/Group\ 17icon01.png) no-repeat center;
+    height: 100px;
+    margin: 20px;
+}
+
+.icon2{
+    background: url(assets/img/Group\ 18icon02.png) no-repeat center;
+    height: 100px;
+    margin: 20px;
+}
+
+.icon3{
+    background: url(assets/img/Group\ 19icon03.png) no-repeat center;
+    height: 100px;
+    margin: 20px;
+}
+
+.card_centrada{
+    background-color: #fff;
+    place-items: center;
+    margin: 0 auto;
+}
+
+.imagen-tarjeta-izq{
+    background: url(assets/img/S3_computer.png);
+}
+
+.clear{
+    clear:both;
+}
+
+.tres-col{
+    margin: 0 auto;
+}
+
+.col{
+    width: 18rem;
+}
+
+.wrapper-2{
+    margin: 40px auto;
+    align-items: center;
+    padding: 24px;
+    text-align: center;
+}
+
+.hero-img-2{
+    background: url(assets/img/S3_computer.png) no-repeat center;
+    height: 600px;
+    background-size: fill;
+    margin: 0 auto;
+}
+
+
+/* -- correcciones */
+
+.card {
+    max-width: 100%;
+    position: relative;
+    overflow: hidden; /* Para asegurar que el contenido no se salga */
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5; /* Ajusta la opacidad según lo desees */
+}
+
+.card-body {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgba(207, 210, 213, 0.8); /* Fondo secundario translúcido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+}
+
+.card-title,
+.card-text {
+    text-align: center; /* Centra el texto */
+}
+
+
+
