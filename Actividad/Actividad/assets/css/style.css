@@ -44,7 +44,7 @@ p{
 }
 
 .hero-img{
-    background: url(/assets/img/.hero-img) no-repeat center;
+    background: url(/Actividad/Actividad/assets/img/imagen_hero.png) no-repeat center;
     height: 580px;
     background-size: cover;
 }
@@ -89,19 +89,20 @@ p{
 
 
 .icon1{
-    background: url(assets/img/Group\ 17icon01.png) no-repeat center;
+    background: url(/Actividad/Actividad/assets/img/Group\ 17icon01.png) no-repeat center;
     height: 100px;
     margin: 20px;
+    
 }
 
 .icon2{
-    background: url(assets/img/Group\ 18icon02.png) no-repeat center;
+    background: url(/Actividad/Actividad/assets/img/Group\ 18icon02.png) no-repeat center;
     height: 100px;
     margin: 20px;
 }
 
 .icon3{
-    background: url(assets/img/Group\ 19icon03.png) no-repeat center;
+    background: url(/Actividad/Actividad/assets/img/Group\ 19icon03.png) no-repeat center;
     height: 100px;
     margin: 20px;
 }
@@ -113,7 +114,7 @@ p{
 }
 
 .imagen-tarjeta-izq{
-    background: url(assets/img/S3_computer.png);
+    background: url(/Actividad/Actividad/assets/img/S3_computer.png);
 }
 
 .clear{
@@ -136,7 +137,7 @@ p{
 }
 
 .hero-img-2{
-    background: url(assets/img/S3_computer.png) no-repeat center;
+    background: url(/Actividad/Actividad/assets/img/S3_computer.png) no-repeat center;
     height: 600px;
     background-size: fill;
     margin: 0 auto;
@@ -149,6 +150,7 @@ p{
     max-width: 100%;
     position: relative;
     overflow: hidden; /* Para asegurar que el contenido no se salga */
+    border: none;
 }
 
 .card-img {
@@ -156,6 +158,56 @@ p{
     height: auto;
     opacity: 0.5; /* Ajusta la opacidad según lo desees */
 }
+.card-background1 {
+    background-image: url('/Actividad/Actividad/assets/img/S4_computer_closeup.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+}
+
+.card-background {
+    background-image: url('/Actividad/Actividad/assets/img/S4_computer.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+}
+
+.texto {
+    background: rgba(220, 220, 220, 0.8);
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.difuminado {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    height: 100%;
+}
+
+.card-custom {
+    border: none;
+    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.left-col {
+    width: 40%;
+}
+
+.right-col {
+    width: 60%;
+}
+
 
 .card-body {
     position: absolute;
@@ -168,6 +220,9 @@ p{
     flex-direction: column;
     justify-content: center; /* Centra verticalmente */
     align-items: center; /* Centra horizontalmente */
+    border: 0;
+    outline: 0;
+    box-shadow: none;
 }
 
 .card-title,
